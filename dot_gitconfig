@@ -1,0 +1,13 @@
+[user]
+	name = wairasama
+	email = jordaanhilton144@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nano
+[pull]
+	rebase = false
+[merge]
+	conflictstyle = zdiff3
+[push]
+	autoSetupRemote = true

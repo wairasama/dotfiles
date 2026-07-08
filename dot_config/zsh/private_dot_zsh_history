@@ -1,0 +1,1168 @@
+cd .config
+cd zsh
+nano exports.zsh
+clea
+exit
+fastfetch
+clear
+cd .c
+cd .config
+ls
+cd kitty
+ls
+clear
+ls
+nano kitty.conf\(default\)
+nano ~/.config/kitty/kitty.conf
+ecit
+exit
+clear
+exit
+ls
+la
+cd .config
+cd kitty
+nano kitty.conf
+clear
+sudo dnf install batcat
+sudo dnf install bat
+batcat current-theme.conf
+clear
+batcat 
+bat 
+bat kitty.conf
+clear
+cat current-theme.conf
+clear
+bat current-theme.conf
+clear
+bat -color=always current-theme.conf
+bat --color=always current-theme.conf
+cd ..
+la
+mkdir -p "$(bat --config-dir)/themes"
+cd "$(bat --config-dir)/themes"
+bat cache --build
+bat --theme="Catppucin Mocha"
+bat --theme="Catppuccin Mocha"
+clear
+bcd ..
+clear
+cd ..
+cd ..
+cd zsh
+bat .zsh_history
+clear
+clear
+cd "$(bat --config-dir)/themes"
+curl -LO https://githubusercontent.co
+curl -LO https://githubusercontent.com
+clear
+curl -LO https://githubusercontent.com
+clear
+bat cache --build
+bat --list-themes
+nano "$(bat -config-file)"
+clear
+cd ..
+cd ..
+bat .zsh_history
+la
+cd zsh
+bat plugins.zsh
+clear
+sudo dnf install starship
+clear
+curl -sS https://starship.rs/install.sh | sh
+starship --version
+cd
+ls
+la
+cd .config
+ls
+cd zsh
+ls
+nano plugins.zsh
+clear
+exit
+clear
+mkdir -p ~/.config
+touch ~/.config/starship.toml
+ls
+cd ..
+ls
+nano starship.toml
+clear
+exit
+ls
+cd .config
+cd zsh
+la
+nano plugins.zsh
+exit
+exit
+ls
+la
+clear
+clear
+la
+cd .config
+la
+nano starship.toml
+clear
+exit
+exit
+ls
+cd .config
+nano starship.toml
+clear
+nano starship.toml
+clear
+cd .config
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+cd .config
+exit
+cd .config
+exit
+cd .config
+exit
+clear
+la
+nano starship.toml
+exit
+fastfetch
+exit
+exit
+exit
+exit
+exit
+exit
+ls
+cd .config
+ls
+rm -rf starship\(first\).toml
+ls
+la
+clear
+ls
+nano starship.toml
+fastfetch
+clear
+exit
+la
+la
+ls
+la
+clear
+sudo dnf install eza
+clear
+eza 
+eza --icons
+clear
+ls
+la
+cd ..
+cd ..
+la
+cd wairasama
+la
+cd .config
+la
+clear
+la
+cd zsh
+la
+nano aliases.zsh
+ls
+la
+exit
+ll
+ls
+la
+ll
+exit
+tree
+ll
+clear
+exit
+la
+exit
+la
+fc-match monospace
+cd .config
+la
+cd kitty
+nano kitty.conf
+clear
+kitty +lists-font | grep -i "Hack"
+kitty +lists-fonts | grep -i "Hack"
+kitty +list-fonts | grep -i "Hack"
+bat --list-themes
+nvim ~/.config/bat/config
+clear
+cd .config
+la
+cd kitty
+la
+bat kitty.conf
+cd ..
+cd bat
+bat ~/.config/starship.toml
+clear
+cd ..
+cd zsh
+la
+nvim aliases.zsh
+nano aliases.zsh
+la
+nano plugins.zsh
+la
+nano plugin-config.zsh
+exi
+exit
+la
+pwd
+cd .config
+cd zsh
+la
+nano .zshrc
+clear
+exit
+exit
+la
+cd .cong
+cd .config
+la
+cd zsh
+nano .zshrc
+la
+nano plugins.zsh
+exit
+la
+nano plugins.zsh
+exit
+nano plugins.zsh
+la
+nano .zshrc
+cd .config
+cd zsh
+nano completion.zsh
+rm -rf completions.zsh
+la
+rm -rf completion.zsh
+la
+clear
+exit
+exit
+nano plugins.zsh
+exit
+cd .config/zsh
+nano plugins.zsh
+la
+nano plugin-config.zsh
+nano plugins.zsh
+clear
+typeset -p ZSH_HIGHLIGHT_STYLES
+clear
+la
+nano .zshrc
+exit
+nano plugin-config.zsh
+nano plugins.zsh
+exit
+nano plugins.zsh
+exit
+la
+cd .config
+la
+exec zsh
+echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+echo "Loaded plugin-config.zsh"
+exec zsh
+grep -R "ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE" ~/.config/zsh
+cd .cong
+cd .config
+la
+cd zsh
+nano .zshrc
+exi
+xit
+exit
+nl -ba ~/.config/zsh/plugin-config.zsh | sed -n '30,45p'
+la
+cd .config/zsh
+la
+nano plugin-config.zsh
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exti
+exit
+esxit
+exit
+exit
+exit
+exit
+la
+cd ..
+la
+cd wairasama
+la
+ls
+ll
+clear
+clear
+nl -ba ~/.config/zsh/plugin-config.zsh | sed -n '30,45p'
+[200~30surface1 "#45475a"
+    31surface0 "#313244"
+    32
+    33base  "#1e1e2e"
+    34)
+    35
+    36
+    37# Commands
+    38ZSH_HIGHLIGHT_STYLES[command]="fg=${CATPPUCCIN[blue}],bold"
+    39
+    40# Aliases
+    41ZSH_HIGHLIGHT_STYLES[alias]="fg=${CATPPUCCIN[lavender]}"
+    42
+    43# Builtins
+    44ZSH_HIGHLIGHT_STYLES[builtin]="fg=${CATPPUCCIN[mauve]}"
+nl -ba ~/.config/zsh/plugin-config.zsh | sed -n '1,34p'
+clea
+clear
+la
+nano plugin-config.zsh
+exec zsh
+typeset -p CATPPUCCIN
+echo ${CATPPUCCIN[blue]}
+nano plugin-config.zsh
+exit
+zsh --version
+nano plugin-config.zsh
+la
+cd .config/zsh
+nano plugin-config.zsh
+exec zsh
+nl -ba ~/.config/zsh/plugin-config.zsh | sed -n '45,55p'
+ 45	\
+    46	# Commands\
+    47	ZSH_HIGHLIGHT_STYLES[command]="fg=${CATPPUCCIN[blue}],bold"\
+    48	\
+    49	# Aliases\
+    50	ZSH_HIGHLIGHT_STYLES[alias]="fg=${CATPPUCCIN[lavender]}"\
+    51	\
+    52	# Builtins\
+    53	ZSH_HIGHLIGHT_STYLES[builtin]="fg=${CATPPUCCIN[mauve]}"\
+    54	\
+exit
+clear
+exit
+typeset -p ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[path]='fg=red'
+ZSH_HIGHLIGHT_STYLES[path]="fg=$(CATPPUCCIN[teal])"
+clear
+la
+clear
+la
+cd .config
+cd zsh
+la
+nano plugin-config.zsh
+nano plugin-config.zsh
+cd .config
+cd zsh
+nano 
+nano plugin-config.zsh
+exit
+nano plugin-config.zsh
+cd .config/zsh
+nano plugin
+pwd
+nano plugin-config.zsh
+exit
+cd .config/zsh
+nano plugin-config.zsh
+exec zsh
+nano plugin-config.zsh
+exec zsh
+nano plugin-config.zsh
+exec zsh
+nano plugin-config.zsh
+exec zsh
+zsh -n ~/.config/zsh/plugin-config.zsh
+nl -ba ~/.config/zsh/plugin-config.zsh | sed -n '30,45p'
+set opt | grep KSH
+echo $options[KSH_ARRAYS]
+nano plugin-config.zsh
+exec zsh
+clear
+exit
+nvim
+la
+ls
+ll
+clear
+sudo dnf install obsidian
+git clone https://github.com/neovim/neovim
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo sudo make install
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz\
+sudo rm -rf /opt/nvim-linux-x86_64\
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
+la
+pwd
+cd ..
+la
+cd .config/zsh
+la
+nano exports.zsh
+exec zsh
+clear
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo 
+la
+cd ..
+la
+cd ..
+cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo 
+la
+sudo make install
+cd ..
+la
+cd.conf
+cd .config
+clear
+cd .conffig
+la
+cd ..
+la
+cd neovim
+la
+cd ..
+rm -rf neovim
+la
+clear
+nvim
+eza
+sudo dnf install mailsy
+clear
+la
+cd Downloads
+la
+exec VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+cd Downloads
+la
+chmod +x VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+ls
+sudo dnf istall gcc perl make build-essential
+sudo dnf istall gcc perl make build-essential
+sudo dnf install gcc perl make build-essential
+sudo dnf group install "development-tools"
+ls
+sudo ./VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+clear
+la
+rm -rf VMware-Workstation-Full-26H1-25388281.x86_64.bundle
+la
+clear
+la
+cd VM
+	la
+cd Kali
+;a
+la
+cd kali-linux-2026.2-vmware-amd64.vmwarevm
+la
+cd ..
+exit
+cd .config
+cd
+clear
+exit
+sudo dnf install kernel-devel kernel-headers gcc make elfutils-libelf-devel
+uname -r
+rpm -q kernel-devel
+rpm -q kernel
+sudo reboot
+uname -r
+sudo dnf install kernel-devel-$(uname -r)
+uname -r 
+rpm -q kernel
+rpm -q kernel-devel
+sudo dnf check update
+sudo dnf check-update
+sudo dnf upgrade -refresh
+sudo dnf upgrade --refresh
+clear
+sudo dnf install kernel-devel kernel-headers
+rpm -q kernel-devel
+rpm -kernel
+clear
+rpm -q kernel-devel
+rpm -q kernel
+sudo reboot
+uname -r
+la
+cd vm
+cd VM
+la
+cd Kali
+la
+cd kali-linux-2026.2-vmware-amd64.vmwarevm
+la
+cd ..
+la
+la
+cd ..
+la
+clear
+la
+ll
+cd iso
+cd ISOs
+la
+la
+cd ..
+la
+cd Kali
+mkdir Snapshots
+la
+cd ..
+mkdir Windows 11 Ubuntu Arch Templates
+la
+la
+cd
+ls
+cd Downloads
+la
+ls
+sudo reboot
+htop
+clear
+free 0h
+clear
+free -h
+exit
+free -h
+ps aux --sort=-%mem | head -20
+btop
+free -h
+swapon --show
+free -h
+cat /proc/sys/vm/swappiness
+cat /proc/sys/vm/swappiness
+ls
+cd ..
+ls
+cd ..
+ls
+cd etc
+ls
+cd vmware
+ls
+cd ..
+ls
+clear
+ls
+clear
+cd
+ls
+sudo dnf install zen
+clear
+cd /Dow
+ls
+cd Downloads
+ls
+rm -rf zen.linux-x86_64
+ls
+rm -rf zen.linux-x86_64.tar.xz
+ls
+clear
+exit
+which openvpn
+clear
+which ssh
+clear
+htop
+sudo apt purge firefox
+sudo dnf purge firefox
+htop
+clear
+exit
+htop
+clear
+exit
+fastfetch
+clear
+ls
+ll
+cd .c
+cd .config
+ls
+cd kitty
+ls
+cat kitty.conf
+ps
+ps ls
+ps --help
+man ps
+ps -report
+ps(1)
+clear
+ls
+nano kitty.conf
+ls
+kitty cd
+clear
+cd .config
+cd kitty
+ls
+nl kitty.conf\(default\)
+kitten theme
+exit
+ls
+cd .config
+cd kitty
+ls
+nano current-theme.conf
+systemctl status vmtoolsd
+vmware-toolbox-cmd -v
+ssh kitsune@10.144.2.139
+clear
+ssh kitsune@10.144.2.139
+catt
+cat
+clear
+bindkey -v
+echo $KEYMAP
+alias i
+which i
+grep - R "ipaddr" ~/.zshrc ~/.config ~/.zsh 2>/dev/null
+ssh -t /bin/bash --noprofile --norc
+ssh -t kali /bin/bash --noprofile --norc
+ssh -t kitsune /bin/bash --noprofile --norc
+ssh -t 10.144.2.139 /bin/bash --noprofile --norc
+whoami
+sudo ssh -t 10.144.2.139 /bin/bash --noprofile --norc
+ssh 10.144.2.139
+ssh kali@10.144.2.139
+ssh kitsune@10.144.2.139
+sudo ssh -t kitsune@10.144.2.139 /bin/bash --noprofile --norc
+clear
+echo $SHELL
+echo $0
+ssh -t kitsune@10.144.2.139 "zsh -f"
+clear
+TERM=xterm-256color ssh kitsune@10.144.2.139
+clear
+kitty +kitten ssh kitsune@10.144.2.139
+clear
+ssh kitsune@10.144.2.139
+pwd
+ls
+la
+nano  .zshenv
+cd .config
+ls
+cd zsh
+ls
+la
+nano .zsh
+nano .zshrc
+ls
+nano aliases.zsh
+nano functions.zsh
+nano prompt.zsh
+nano exports.zsh
+nano plugin-config.zsh
+nano plugins.zsh
+ls
+nano plugin-config.zsh
+ls
+rm -rf plugin-config.zsh
+ls
+cat plugin-config.zsh.save
+rm -rf plugin-config.zsh.save
+ls
+la
+nano .zshrc
+ls
+ls
+rm -rf theme.zsh
+la
+nano .zshrc
+clear
+ls
+la
+ls
+nano exports.zsh
+la
+clear
+la
+nano plugins.zsh
+nano plugins.zsh
+exit
+lexit
+exit
+exit
+which zen-browser
+la
+nano .zshrc
+cd .config
+cd zsh
+mkdir conf.d
+la
+cd conf.d
+touch 00-exports.zsh 10-aliases.zsh 20-functions.zsh 30-completion.zsh 40-plugins.zsh 50-themes.zsh 60-prompt.zsh
+ls
+nano 00-exports.zsh
+clear
+ls
+nano exports.zsh
+nano aliases.zsh
+nano 10
+nano 10-aliases.zsh
+nano functions.zsh
+nano 40-plugins.zsh 
+nano plugins.zsh
+rm -rf 50-themes.zsh
+nano 60-prompt.zsh
+nano prompt.zsh
+la
+rm -rf 60-prompt.zsh
+la
+clear
+la
+cd .config
+cd zsh
+la
+cd conf
+cd conf.d
+la
+nano 40-plugins.zsh
+exit
+exit
+nano plugins.zsh
+exit
+exit
+la
+rm -rf aliases.zsh functions.zsh prompt.zsh exports.zsh plugins.zsh
+la
+cd conf.d
+la
+nano 00-exports.zsh 
+clear
+exit
+pwd
+la
+cd .config
+la
+cd kitty
+la
+mkdir themes
+touch fonts.conf appearence.conf windows.conf keyboard.conf clipboard.conf
+la
+nano current-theme.conf
+cd .congif
+cd .config
+cd kitty
+la
+nano kitty.conf
+rm -rf windows.conf clipboard.conf
+la
+nano fonts.conf
+nano appearence.conf
+nano keyboard.conf
+nano kitty.conf
+la
+mv current-theme.conf ~/.confif/kitty/themes
+la
+pwd
+exit
+exit
+la
+cd .config
+cd kitt
+cd kitty
+ls
+nano kitty.conf
+nano kitty.conf
+cd themes
+la
+touch catppuccin-mocha.conf
+kitten theme
+touch box.conf
+touch C64.conf
+la
+touch copland_os.conf
+touch flat.conf
+touch neowave.conf
+touch pastel_cyberpunk.conf
+touch retrowave_dark.conf
+touch toy_chest.conf
+touch adventure_time.conf
+la
+la
+cd ..
+ls
+clear
+ls
+cd ..
+ls
+cd zsh
+ls
+cd conf.d
+ls
+cd ../..
+l
+sls
+ls
+cd kitty
+ls
+nano fonts.conf
+clear
+exit
+exit
+nano fonts.conf
+nano appearence.conf
+nano fonts.conf
+nano appearence.conf
+exit
+nano appearence.conf
+exit
+exit
+exit
+exit
+cd .config/kitty
+ls
+nano kitty.conf
+nano kitty.conf
+nano appearence.conf
+ls
+rm -rf appearence.conf
+ls
+exit
+exit
+exit
+exit
+cd .config/kitty/
+ls
+clear
+ls
+kitty +kitten themes
+cd themes
+la
+la
+cd ..
+la
+nano 'Adventure Time.conf'
+cd .config
+cd kitty
+ls
+cat 'Adventure Time.conf'
+rm -rf 'Adventure Time.conf'
+kitty +kitten themes
+ls
+cd themes
+ls
+nano current-theme.conf
+nano adventure_time.conf
+nano box.conf
+nano C64.conf
+nano catppuccin-mocha.conf
+nano copland_os.conf
+nano flat.conf
+nano neowave.conf
+nano pastel_cyberpunk.conf
+nano retrowave_dark.conf
+nano toy_chest.conf
+cd .
+clear
+cd ..
+ls
+nano kitty.conf
+nano appearance.conf
+cd themes
+nano current-theme.conf
+cd ..
+nano appearance.conf
+exit
+exit
+cd .config
+cd kitty
+ls
+nano kitty.conf
+nano kitty.conf
+cd .conf/kit
+cd .config/kitty
+ls
+nano fonts.conf
+nano appearance.conf
+exit
+cd .config/kitty
+nano appearance.conf
+exit
+exit
+la
+ls
+la
+clear
+cd .config/kitty
+nano keyboard.conf
+nano appearance.conf
+nano appearance.conf
+nano appearance.conf
+nano appearance.conf
+exit
+la
+cd .c
+cd .config
+ls
+nano starship.toml
+shutdown
+sudo shutdown --now
+sudo shutdown
+cd .config/kitty
+ls
+nano kitty.conf
+cd .config/kitty
+cd the
+cd themes
+ls
+la
+ls
+cd themes
+nano kitty.conf
+ls
+cd ..
+nano kitty.conf
+cd .config
+ls
+nano starship.toml
+cd .config
+nano starship.toml
+whoami
+exit
+ls
+exit
+l
+ls
+la
+cd .config
+ls
+la
+pwd
+clear
+la
+mkdir starship
+la
+cd starship
+mkdir palettes
+cd palettes
+clear
+cd .cnof
+cd .con
+cd ../..
+ls
+nano starship.toml
+starship --version
+starship print-config | grep custom
+clear
+l
+ala
+la
+cd .config
+la
+clear
+nano starship
+nano starship.toml
+exit
+ssh kitsune@10.144.2.139
+clear
+git config --global --list
+git config --global use.name "wairasama"
+git config --global user.name "wairasama"
+git config --global user.email "jordaanhilton144@gmail.com"
+git config --global init.defaultBranch main
+git config --global core.editor nano
+git config --global pull.rebase false
+git config --global merge.conflictstyle zdiff3
+git config --global push.autoSetupRemote true
+git config --global --list
+git config --global remove use.name
+git --help
+git config --global rm use.name
+git rm --global  use.name
+git config --global --unset use.name
+git config --global --list
+ssh -T git@github.com
+ls -la ~/.ssh
+ssh-add -l
+cat ~/.ssh/config
+ssh-keygen -t ed25519 -C "jordaanhilton144@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-add -l
+cat ~/.ssh/id_ed25519.pub | wl-copy
+ssh -T git@github.com
+la
+cd Projects
+ls
+la
+clear
+la
+git clone git@github.com:wairasama/dotfiles.git
+la
+cd dotfiles
+la
+pwd
+git remote -v
+git status
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo >> ~/.zprofile\
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.zprofile\
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+brew dokter
+brewdokter
+brew doctor
+brew "chezmoi"
+brew install chezmoi
+chezmoi --version
+chezmoi source-path
+chezmoi init git@github.com:wairasama/dotfiles.git
+chezmoi source-path
+cd ~/.local/share/chezmoi
+pwd
+git remote -v
+ls --la ~/.gitconfig
+ls -la ~/.gitconfig
+chezmoi add ~/.gitconfig
+pwd
+tree
+git status
+git add .
+git commit -m "feat(git): add global git configuration"
+git push
+ls ~/.cong/kitty
+ls ~/.config/kitty
+chezmoi add ~/.config/kitty
+cd ~/.local/share/chezmoi
+tree
+chezmoi diff
+git add .
+git commit -m "feat(kitty): import kitty configuration"
+git push
+chezmoi add ~/.config/starship.toml
+cd ~/.local/share/chezmoi\
+tree -a
+chezmoi diff
+chezmoi apply
+exit
+git add .
+git commit -m "feat(starship): import starship configuration"
+git push
+chezmoi add ~/.zshenv
+chezmoi add ~/.config/zsh
+cd ~/.local/share/chezmoi\
+tree -a
+chezmoi diff
+git rm --cached dot_config/zsh/.zsh_history
+find . -name "*history*"
+git rm --cached dot_config/zsh/dot_zsh_history
+git ls-files | grep zsh_history
+git status
+tree -a dot_config/zsh
+rm ~/.local/share/chezmoi/dot_config/zsh/private_dot_zsh_history
+rm ~/.local/share/chezmoi/dot_config/zsh/dot_zcompdump
+git status
+git add .
+git diff --cached
+git status
+git commit -m "feat(ZSH) : Import ZSH CONFIGURATION"
+git push
+mkdir docs scripts bootstrap
+la
+touch README.md 
+touch LICENSE
+la
+brew install mise
+mise --version
+touch ~/.config/zsh/conf.d/60-mise.zsh
+la
+cd .config
+la
+cd zsh
+la
+cd conf.d
+la
+nano 60-mise.zsh
+exit
+chezmoi add ~/.config/zsh/conf.d/60-mise.zsh\
+chezmoi apply
+mise doctor
+exit
+exit
+: 1783501546:0;which brew
+: 1783501613:0;ls -l /home/linuxbrew/.linuxbrew/bin/brew
+: 1783501624:0;ls -l /home/linuxbrew/.linuxbrew/bin/brew
+: 1783501638:0;cat ~/.zprofile
+: 1783501650:0;cat ~/.zshenv
+: 1783501688:0;head -50 ~/.config/zsh/.zshrc
+: 1783501888:0;la
+: 1783501894:0;nano .zprofile
+: 1783501913:0;clear
+: 1783501928:0;touch ~/.config/zsh/conf.d/50-homebrew.zsh
+: 1783501943:0;cd .config//zsh/conf.d
+: 1783501947:0;la
+: 1783501967:0;nano 50-homebrew.zsh
+: 1783501996:0;nano 60-mise.zsh
+: 1783502038:0;nano 50-homebrew.zsh
+: 1783502052:0;la
+: 1783502064:0;rm -rf 50-homebrew.zsh
+: 1783502067:0;clear
+: 1783502067:0;la
+: 1783502076:0;nano 60-mise.zsh
+: 1783502089:0;la
+: 1783502099:0;rm -rf 60-mise.zsh
+: 1783502101:0;clear
+: 1783502102:0;la
+: 1783502111:0;clear
+: 1783502130:0;la
+: 1783502160:0;nano 50-prompt.zsh
+: 1783502206:0;la
+: 1783502212:0;rm -rf 50-prompt.zsh
+: 1783502214:0;clear
+: 1783502215:0;la
+: 1783502226:0;nano 60-homebrew.zsh
+: 1783502236:0;la
+: 1783502247:0;rm -rf 60-homebrew.zsh
+: 1783502249:0;clear
+: 1783502254:0;nano 70-mise.zsh
+: 1783502263:0;clear
+: 1783502264:0;la
+: 1783502273:0;rm -rf 70-mise.zsh
+: 1783502277:0;clear
+: 1783502278:0;la
+: 1783502316:0;which brew
+: 1783502327:0;brew --version
+: 1783502342:0;brew list | grep mise
+: 1783502352:0;mise --version
+: 1783502383:0;la
+: 1783502392:0;cd .config
+: 1783502395:0;cd zsh
+: 1783502402:0;nano .zshrc
+: 1783502628:0;clear
+: 1783502673:0;chezmoi add ~/.config/zsh

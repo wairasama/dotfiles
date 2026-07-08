@@ -21,7 +21,10 @@
 ZSH_CONFIG="${HOME}/.config/zsh"
 
 # Load every configuration module
-for file in "${ZSH_CONFIG}"/conf.d/*.zsh; do
-    [[ -r "$file" ]] && source "$file"
-done
+if [[ -d "${ZSH_CONFIG}/conf.d" ]]; then
+    for file in "${ZSH_CONFIG}"/conf.d/*.zsh; do
+        [[ -r "$file" ]] && source "$file"
+    done
+fi
+
 unset file

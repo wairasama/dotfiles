@@ -1,0 +1,27 @@
+# EXPORTS
+# [[ -f "$ZDOTDIR/exports.zsh" ]] && source "$ZDOTDIR/exports.zsh"
+
+# ALIASES
+# [[ -f "$ZDOTDIR/aliases.zsh" ]] && source "$ZDOTDIR/aliases.zsh"
+
+# FUNCTIONS
+# [[ -f "$ZDOTDIR/functions.zsh" ]] && source "$ZDOTDIR/functions.zsh"
+
+# PROMPT
+# [[ -f "$ZDOTDIR/prompt.zsh" ]] && source "$ZDOTDIR/prompt.zsh"
+
+# COMPLETIONS
+# [[ -f "$ZDOTDIR/completion.zsh" ]] && source "$ZDOTDIR/completion.zsh"
+
+# PLUGINS
+# [[ -f "$ZDOTDIR/plugins.zsh" ]] && source "$ZDOTDIR/plugins.zsh"
+
+
+# Location of this configuration
+ZSH_CONFIG="${HOME}/.config/zsh"
+
+# Load every configuration module
+for file in "${ZSH_CONFIG}"/conf.d/*.zsh; do
+    [[ -r "$file" ]] && source "$file"
+done
+unset file

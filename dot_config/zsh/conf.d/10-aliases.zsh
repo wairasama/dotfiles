@@ -1,0 +1,6 @@
+alias ls="eza --icons --group-directories-first"
+alias ll="eza -lah --icons --git"
+alias la="eza -a --icons --group-directories-first"
+alias tree="eza --tree --icons"
+alias update="sudo dnf upgrade --refresh"
+alias cat="bat"

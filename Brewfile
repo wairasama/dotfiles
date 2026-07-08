@@ -34,6 +34,5 @@ brew "neovim"
 # Terminal Applications
 # =====================================================
 
-brew "kitty"
 brew "lazygit"
 brew "yazi"

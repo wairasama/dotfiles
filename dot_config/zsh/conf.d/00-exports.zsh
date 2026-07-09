@@ -15,3 +15,7 @@ export SAVEHIST=5000
 
 #SHARE HISTORY ACCROSS TERMINAL TABS 
 setopt SHARE_HISTORY
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dus

@@ -42,3 +42,19 @@ htb-connect() {
         sudo openvpn ~/Projects/htb/vpn/lab.ovpn
     '
 }
+
+kali() {
+    local kitty_socket="${KITTY_LISTEN_ON#unix:}"
+
+    if [[ -n "$kitty_socket" ]]; then
+        kitty @ --to "unix:$kitty_socket" set-colors \
+            ~/.config/kitty/themes/retrowave_dark.conf
+    fi
+
+    ssh kali
+
+    if [[ -n "$kitty_socket" ]]; then
+        kitty @ --to "unix:$kitty_socket" set-colors \
+            ~/.config/kitty/themes/current-theme.conf
+    fi
+}

@@ -1,13 +1,34 @@
 [user]
 	name = wairasama
-	email = jordaanhilton144@gmail.com
+	email = 288631806+wairasama@users.noreply.github.com
+	signingkey = /home/wairasama/.ssh/github_ed25519.pub
 [init]
 	defaultBranch = main
 [core]
 	editor = nano
+	excludesfile = /home/wairasama/.config/git/ignore
 [pull]
 	rebase = false
 [merge]
 	conflictstyle = zdiff3
 [push]
 	autoSetupRemote = true
+[fetch]
+	prune = true
+[rerere]
+	enabled = true
+[alias]
+	st = status
+	a = add
+	cm = commit
+	co = checkout
+	br = branch
+	df = diff
+	lg = log --oneline --graph --decorate --all
+	last = log -1 HEAD
+	rs = restore
+	conf = config --global --list
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

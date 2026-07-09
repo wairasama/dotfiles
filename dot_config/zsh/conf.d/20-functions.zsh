@@ -1,24 +1,36 @@
 htb-copy() {
     local vpn_file
 
-    vpn_file=$(find ~/Downloads -maxdepth 1 -type f -name "*.ovpn" | head -n1)
+    vpn_file=$(find "$HOME/Downloads" -maxdepth 1 -type f -iname "*.ovpn" -print -quit)
 
     if [[ -z "$vpn_file" ]]; then
         echo "❌ No .ovpn file found in ~/Downloads"
         return 1
     fi
 
+    echo "🔍 Checking for existing VPN profile..."
+
+    ssh kali '
+        if [[ -f ~/Projects/htb/vpn/lab.ovpn ]]; then
+            rm ~/Projects/htb/vpn/lab.ovpn
+            echo "🗑️ Removed old lab.ovpn"
+        else
+            echo "ℹ️ No existing VPN profile found"
+        fi
+    ' || {
+        echo "❌ Failed to connect to Kali."
+        return 1
+    }
+
     echo "📦 Copying $(basename "$vpn_file")..."
 
-    scp "$vpn_file" kali:~/Projects/htb/vpn/lab.ovpn
-
-    if [[ $? -eq 0 ]]; then
-        echo "✅ VPN profile copied."
-    else
+    scp "$vpn_file" kali:~/Projects/htb/vpn/lab.ovpn || {
         echo "❌ Copy failed."
-    fi
-}
+        return 1
+    }
 
+    echo "✅ VPN profile updated."
+    }	
 htb-connect() {
     ssh -t kali '
         if [[ ! -f ~/Projects/htb/vpn/lab.ovpn ]]; then
@@ -26,21 +38,7 @@ htb-connect() {
             exit 1
         fi
 
+        echo "󰓥 Starting HTB VPN..."
         sudo openvpn ~/Projects/htb/vpn/lab.ovpn
     '
-}
-
-
-htb-status() {
-    if ip link show tun0 >/dev/null 2>&1; then
-        echo "✅ HTB VPN Connected"
-        ip -brief addr show tun0
-    else
-        echo "❌ HTB VPN Disconnected"
-    fi
-}
-
-
-htb-disconnect() {
-    ssh kali "sudo pkill openvpn"
 }

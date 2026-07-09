@@ -1,0 +1,17 @@
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_ed25519
+    IdentitiesOnly yes
+
+
+Host kali
+    HostName 192.168.223.128
+    User kitsune
+    IdentityFile ~/.ssh/kali_ed25519
+    IdentitiesOnly yes
+
+
+# Host htb
+#     HostName 
+#     User kali

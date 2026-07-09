@@ -48,7 +48,7 @@ kali() {
 
     if [[ -n "$kitty_socket" ]]; then
         kitty @ --to "unix:$kitty_socket" set-colors \
-            ~/.config/kitty/themes/retrowave_dark.conf
+            ~/.config/kitty/themes/neowave.conf
     fi
 
     ssh kali
